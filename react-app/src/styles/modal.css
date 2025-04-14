@@ -1,0 +1,84 @@
+.login-modal-overlay {
+    position: fixed;
+    z-index: 9999;
+    left: 0; right: 0; top: 0; bottom: 0;
+    background: rgba(44, 52, 68, 0.35);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: fadein 0.15s;
+  }
+  
+  @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+  }
+  
+  .login-modal-content {
+    background: #fff;
+    padding: 2rem 1.5rem;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 360px;
+    box-shadow: 0 5px 24px rgba(40,60,90,0.18);
+    position: relative;
+    text-align: center;
+  }
+  
+  .login-modal-content h2 {
+    margin-top: 0;
+    color: #3756f7;
+    font-size: 1.3rem;
+  }
+  
+  .login-modal-content p {
+    margin: 1.2rem 0 1.5rem 0;
+    color: #222;
+  }
+  
+  .login-modal-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .btn-cancel,
+  .btn-login {
+    border: none;
+    border-radius: 7px;
+    padding: 0.7rem 1.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.12s;
+  }
+  
+  .btn-cancel {
+    background: #e5eaf6;
+    color: #3756f7;
+  }
+  
+  .btn-cancel:hover {
+    background: #d1daee;
+  }
+  
+  .btn-login {
+    background: #3756f7;
+    color: #fff;
+  }
+  
+  .btn-login:hover {
+    background: #2236c2;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 14px;
+    font-size: 1.35rem;
+    border: none;
+    background: none;
+    color: #aaa;
+    cursor: pointer;
+  }
+  

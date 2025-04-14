@@ -1,0 +1,37 @@
+[
+  {
+    "id": "class1",
+    "name": "Introduction to Programming",
+    "description": "Beginner programming course",
+    "teacherId": "teacher1",
+    "students": [
+      "student1",
+      "student2"
+    ],
+    "problems": [
+      "problem1",
+      "problem2"
+    ],
+    "createdAt": "2023-08-20T12:00:00Z"
+  },
+  {
+    "id": "1744657467891",
+    "name": "class 1",
+    "description": "1234567890-",
+    "teacherId": "2",
+    "students": [],
+    "problems": [],
+    "inviteCode": "41U9F2Z1",
+    "createdAt": "2025-04-14T19:04:27.891Z"
+  },
+  {
+    "id": "1744657890775",
+    "name": "class 1",
+    "description": "asdfghj",
+    "teacherId": "1",
+    "students": [],
+    "problems": [],
+    "inviteCode": "4TXLA319",
+    "createdAt": "2025-04-14T19:11:30.775Z"
+  }
+]

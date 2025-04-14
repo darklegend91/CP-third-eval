@@ -1,0 +1,74 @@
+[
+  {
+    "id": "1",
+    "title": "Three Sum",
+    "description": "Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.",
+    "difficulty": "easy",
+    "constraints": [
+      "2 <= nums.length <= 10^4",
+      "-10^9 <= nums[i] <= 10^9"
+    ],
+    "examples": [
+      {
+        "input": "nums = [2,7,11,15], target = 9",
+        "output": "[0,1]"
+      }
+    ],
+    "createdBy": "2",
+    "createdAt": "2025-04-14T00:00:00.000Z"
+  },
+  {
+    "id": "problem1",
+    "title": "Two Sum",
+    "description": "Find two numbers that add up to target...",
+    "difficulty": "easy",
+    "authorId": "teacher1",
+    "testCases": [
+      {
+        "input": "[2,7,11,15]",
+        "output": "[0,1]"
+      },
+      {
+        "input": "[3,2,4]",
+        "output": "[1,2]"
+      }
+    ],
+    "solutionTemplate": "function twoSum(nums, target) {...}"
+  },
+  {
+    "id": "1744657758134",
+    "title": "money",
+    "description": "qwertyuiop",
+    "difficulty": "medium",
+    "constraints": [
+      "asdfghj"
+    ],
+    "testCases": [
+      {
+        "input": "1234",
+        "output": "1234"
+      }
+    ],
+    "solutionTemplate": "asdfghjkl",
+    "createdBy": "2",
+    "createdAt": "2025-04-14T19:09:18.134Z"
+  },
+  {
+    "id": "1744657850714",
+    "title": "Student",
+    "description": "asdfghjklqwertyuiopzxcvbnm",
+    "difficulty": "hard",
+    "constraints": [
+      "asdfghj"
+    ],
+    "testCases": [
+      {
+        "input": "asd",
+        "output": "qwert"
+      }
+    ],
+    "solutionTemplate": "zxcvbnmasdfghjklqwertyuiop",
+    "createdBy": "1",
+    "createdAt": "2025-04-14T19:10:50.714Z"
+  }
+]

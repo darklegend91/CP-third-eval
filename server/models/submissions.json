@@ -1,0 +1,82 @@
+[
+  {
+    "id": "1744663914459",
+    "userId": "3",
+    "problemId": "1",
+    "code": "code123",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "111ms",
+    "createdAt": "2025-04-14T20:51:54.459Z"
+  },
+  {
+    "id": "1744664363834",
+    "userId": "3",
+    "problemId": "1",
+    "code": "code123",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "117ms",
+    "createdAt": "2025-04-14T20:59:23.834Z"
+  },
+  {
+    "id": "1744668430567",
+    "userId": "3",
+    "problemId": "1",
+    "code": "qwertyuiopasdfghjklzxcvbnm",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "75ms",
+    "createdAt": "2025-04-14T22:07:10.567Z"
+  },
+  {
+    "id": "1744668498027",
+    "userId": "3",
+    "problemId": "1744657850714",
+    "code": "zxcvbnmasdfghjklqwertyuiop",
+    "language": "javascript",
+    "status": "rejected",
+    "runtime": "130ms",
+    "createdAt": "2025-04-14T22:08:18.027Z"
+  },
+  {
+    "id": "1744668806092",
+    "userId": "3",
+    "problemId": "problem1",
+    "code": "hello code",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "185ms",
+    "createdAt": "2025-04-14T22:13:26.092Z"
+  },
+  {
+    "id": "1744670939594",
+    "userId": "3",
+    "problemId": "1744657850714",
+    "code": "hello i am code",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "113ms",
+    "createdAt": "2025-04-14T22:48:59.594Z"
+  },
+  {
+    "id": "1744672599558",
+    "userId": "4",
+    "problemId": "1",
+    "code": "codeasvd",
+    "language": "javascript",
+    "status": "rejected",
+    "runtime": "147ms",
+    "createdAt": "2025-04-14T23:16:39.558Z"
+  },
+  {
+    "id": "1744672877075",
+    "userId": "4",
+    "problemId": "1744657758134",
+    "code": "money",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "53ms",
+    "createdAt": "2025-04-14T23:21:17.075Z"
+  }
+]

@@ -1,0 +1,61 @@
+[
+  {
+    "id": "1",
+    "name": "Admin User",
+    "email": "admin@example.com",
+    "password": "123",
+    "role": "admin",
+    "favorites": [],
+    "classes": [],
+    "createdAt": "2025-04-14T00:00:00.000Z"
+  },
+  {
+    "id": "2",
+    "name": "Teacher User",
+    "email": "teacher@example.com",
+    "password": "password123",
+    "role": "student",
+    "favorites": [],
+    "classes": [
+      "1"
+    ],
+    "createdAt": "2025-04-14T00:00:00.000Z"
+  },
+  {
+    "id": "3",
+    "name": "Student User",
+    "email": "student@example.com",
+    "password": "password123",
+    "role": "student",
+    "favorites": [
+      "1",
+      "2"
+    ],
+    "classes": [
+      "1"
+    ],
+    "playlists": [
+      "1"
+    ],
+    "createdAt": "2025-04-14T00:00:00.000Z"
+  },
+  {
+    "id": "4",
+    "name": "John Doe",
+    "email": "user@example.com",
+    "password": "password",
+    "role": "student",
+    "createdAt": "2023-01-01",
+    "favorites": [
+      "problem1"
+    ]
+  },
+  {
+    "id": "1744648939351",
+    "name": "Aditya Pathania",
+    "email": "adityapathania2194@gmail.com",
+    "password": "123",
+    "role": "admin",
+    "createdAt": "2025-04-14T16:42:19.351Z"
+  }
+]

@@ -1,0 +1,224 @@
+/* Common layout components like navbar, sidebar, etc */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1c1c1c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+  }
+  
+  .top-nav-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+  }
+  
+  .top-nav-left nav a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.8;
+  }
+  
+  .top-nav-left nav a:hover {
+    opacity: 1;
+  }
+  
+  .upgrade-btn {
+    background-color: #f0a500;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+  
+  .upgrade-btn:hover {
+    background-color: #cf8700;
+  }
+  
+  .logout-btn {
+    background-color: #dc3545;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-weight: 600;
+  }
+  
+  .logout-btn:hover {
+    background-color: #bd2130;
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    max-width: 250px;
+  }
+  
+  .skill-tests {
+    margin-bottom: 1rem;
+  }
+  
+  .skill-tests h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .view-tests-btn {
+    background-color: #5cb85c;
+    border: none;
+    color: #fff;
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .view-tests-btn:hover {
+    background-color: #4cae4c;
+  }
+  
+  .badges {
+    margin-top: 1rem;
+  }
+  
+  .badges h3 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+  }
+  
+  .sidebar ul li.active a {
+    color: #f0a500;
+    font-weight: bold;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #f0a500;
+  }
+  
+  .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #1c1c1c;
+    color: #fff;
+    padding: 0 1.5rem;
+    min-height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  .logo {
+    font-size: 1.5rem;
+    color: #4a6eda;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 2rem;
+  }
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.85;
+    font-size: 1rem;
+    transition: opacity 0.2s;
+  }
+  .nav-links a:hover {
+    opacity: 1;
+  }
+  .top-nav-right, .user-section, .auth-buttons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+  /* Buttons */
+  .upgrade-btn, .signup-btn {
+    background: #4a6eda;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    text-decoration: none;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .signup-btn {
+    background: #34a853;
+  }
+  .logout-btn {
+    background: #d32f2f;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  /* Responsive Mobile */
+  .mobile-menu-button {
+    display: none;
+    flex-direction: column;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin-right: 1rem;
+    margin-left: 0.5rem;
+  }
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 3px 0;
+    border-radius: 2px;
+  }
+  @media (max-width: 768px) {
+    .mobile-menu-button {
+      display: flex;
+    }
+    .nav-links {
+      flex-direction: column;
+      position: absolute;
+      left: 0; top: 60px;
+      background: #1c1c1c;
+      width: 100vw;
+      padding: 1rem 0;
+      transform: translateY(-200%);
+      transition: transform 0.3s;
+      z-index: 99;
+      gap: 1.2rem;
+    }
+    .nav-links.active {
+      transform: translateY(0);
+    }
+  }
+  
