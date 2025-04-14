@@ -78,5 +78,15 @@
     "status": "accepted",
     "runtime": "53ms",
     "createdAt": "2025-04-14T23:21:17.075Z"
+  },
+  {
+    "id": "1744673511275",
+    "userId": "4",
+    "problemId": "1",
+    "code": "asd",
+    "language": "javascript",
+    "status": "accepted",
+    "runtime": "108ms",
+    "createdAt": "2025-04-14T23:31:51.275Z"
   }
 ]

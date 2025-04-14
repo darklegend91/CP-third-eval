@@ -1,75 +1,7 @@
-// import React, { useEffect, useState } from 'react';
-// import api from '../../api/client';
-// import { useAuth } from '../../contexts/AuthContext';
-
-// export default function SubmissionsPage() {
-//   const { user } = useAuth(); // Get the current logged-in user
-//   const [submissions, setSubmissions] = useState([]);
-//   const [loading, setLoading] = useState(true);
-//   const [error, setError] = useState(null);
-
-//   useEffect(() => {
-//     const fetchSubmissions = async () => {
-//       try {
-//         const response = await api.get(`/submissions/user/${user.id}`);
-//         setSubmissions(response.data);
-//         setError(null);
-//       } catch (err) {
-//         console.error('Error fetching submissions:', err);
-//         setError('Failed to load submissions');
-//       } finally {
-//         setLoading(false);
-//       }
-//     };
-
-//     if (user?.id) {
-//       fetchSubmissions();
-//     }
-//   }, [user]);
-
-//   if (loading) return <div className="loading">Loading submissions...</div>;
-//   if (error) return <div className="error">{error}</div>;
-
-//   return (
-//     <div className="submissions-page">
-//       <h2>My Submissions</h2>
-      
-//       {submissions.length > 0 ? (
-//         <table className="submissions-table">
-//           <thead>
-//             <tr>
-//               <th>Problem ID</th>
-//               <th>Status</th>
-//               <th>Submitted At</th>
-//               <th>Language</th>
-//             </tr>
-//           </thead>
-//           <tbody>
-//             {submissions.map((submission) => (
-//               <tr key={submission.id}>
-//                 <td>
-//                   <a href={`/problem/${submission.problemId}`}>
-//                     {submission.problemId}
-//                   </a>
-//                 </td>
-//                 <td className={`status ${submission.status}`}>
-//                   {submission.status.charAt(0).toUpperCase() + submission.status.slice(1)}
-//                 </td>
-//                 <td>{new Date(submission.createdAt).toLocaleString()}</td>
-//                 <td>{submission.language}</td>
-//               </tr>
-//             ))}
-//           </tbody>
-//         </table>
-//       ) : (
-//         <p className="empty-message">You haven't made any submissions yet.</p>
-//       )}
-//     </div>
-//   );
-// }
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import api from '../../api/client';
+import Navbar from '../../components/layout/Navbar';
 
 export default function SubmissionsPage() {
   const { user } = useAuth();
@@ -130,6 +62,8 @@ export default function SubmissionsPage() {
   if (loading) return <div>Loading...</div>;
 
   return (
+    <>
+    <Navbar></Navbar>
     <div className="submissions-page">
       <h2>My Submissions</h2>
       <ul>
@@ -164,5 +98,6 @@ export default function SubmissionsPage() {
         ))}
       </ul>
     </div>
+    </>
   );
 }

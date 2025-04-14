@@ -38,7 +38,7 @@ function ProblemCard({ problem }) {
     <div className="roadmap-card">
       <Link to={`/problem/${problem.id}`}>
         <div className="roadmap-image">
-          <img src="/assets/python.svg" alt={`${problem.title} icon`} />
+          <img src="../src/assets/code.svg" alt={`${problem.title} icon`} />
         </div>
         <div className="roadmap-info">
           <h2>{problem.title}</h2>
@@ -46,15 +46,6 @@ function ProblemCard({ problem }) {
           <p>Difficulty: {problem.difficulty}</p>
         </div>
       </Link>
-      {isAuthenticated && (
-        <span 
-          className={`favorite-icon ${isFavorite ? 'favorited' : ''}`}
-          onClick={toggleFavorite}
-          title={isFavorite ? "Remove from favorites" : "Add to favorites"}
-        >
-          {isFavorite ? '♥' : '♡'}
-        </span>
-      )}
     </div>
   );
 }

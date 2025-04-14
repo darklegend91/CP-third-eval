@@ -3,6 +3,8 @@
     position: relative;
     border: 1px solid #ddd;
     padding: 15px;
+    width: 50%;
+    margin:auto;
     margin-bottom: 15px;
     border-radius: 5px;
     overflow: hidden;

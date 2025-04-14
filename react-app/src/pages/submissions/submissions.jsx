@@ -49,7 +49,6 @@ function Submissions() {
   return (
     <div className="submissions-page">
       <Navbar />
-      
       <div className="breadcrumb">
         <Link to="/">Home</Link> / <span>Submissions</span>
       </div>

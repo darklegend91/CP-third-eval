@@ -70,8 +70,6 @@ function App() {
           <Route path="/submissions" element={<SubmissionsPage />} />
           <Route path="/playlists/:playlistId" element={<PlaylistDetail />} />
     
-
-          {/* Protected Routes */}
           <Route
             path="/profile"
             element={
